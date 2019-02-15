@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jhrdina/belt-symmetric-diff.git"
+    "url": "https://github.com/jhrdina/belt-diff.git"
   },
-  "homepage": "https://github.com/jhrdina/belt-symmetric-diff#readme",
-  "bugs": "https://github.com/jhrdina/belt-symmetric-diff/issues",
+  "homepage": "https://github.com/jhrdina/belt-diff#readme",
+  "bugs": "https://github.com/jhrdina/belt-diff/issues",
   "keywords": [
     "reason",
     "reasonml",

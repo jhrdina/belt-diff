@@ -1,6 +1,6 @@
 # Symmetric Diffs for Belt Standard Library
 
-ReasonML implementation of fast symmetric diffs for Sets and Maps. Library is designed to be used together with with [Belt](https://bucklescript.github.io/bucklescript/api/Belt.html) standard library that is shipped with [BuckleScript](https://bucklescript.github.io/).
+ReasonML implementation of fast symmetric diffs for Sets and Maps. Library is designed to be used together with [Belt](https://bucklescript.github.io/bucklescript/api/Belt.html) standard library that is shipped with [BuckleScript](https://bucklescript.github.io/).
 
 Algorithm was inspired by Jane Street's [Base](https://github.com/janestreet/base) library _(that unfortunately cannot be used in BuckleScript directly)_.
 
@@ -24,7 +24,7 @@ Add dependency to your `bsconfig.json`:
 
 For more examples see `examples` folder.
 
-__Note:__ Diffing function is combined together with folding/reducing functionality to allow convenient direct accumulation of changes.
+**Note:** Diffing function is combined together with folding/reducing functionality to allow convenient direct accumulation of changes.
 
 ### Set
 
@@ -91,8 +91,6 @@ let addedItems =
 Js.log(Array.of_list(addedItems));
 // > [ 4 ]
 ```
-
-
 
 ## Development
 
